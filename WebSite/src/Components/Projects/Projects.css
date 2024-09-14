@@ -1,0 +1,237 @@
+/*ARROW BUTTON  ICON*/
+
+.material-symbols-outlined {
+  font-size: 100px;
+  opacity: 0.5;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 50,
+    'GRAD' 0,
+    'opsz' 30;
+    transition: font-size .5s, font-size .5s;
+
+
+}
+.material-symbols-outlined:hover {
+  font-size: 120px;
+  opacity: 0.5;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 50,
+    'GRAD' 0,
+    'opsz' 30;
+
+
+}
+.material-symbols-outlined:active {
+  font-size: 100px;
+  opacity: 0.5;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 50,
+    'GRAD' 0,
+    'opsz' 30;
+
+
+}
+/* SECTION TITLE*/
+#projects-title{
+  /* display: flex; */
+  position: relative;
+  top: 25%;
+  width: fit-content;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  justify-content: center;
+  writing-mode: vertical-lr;
+  
+  /* border: solid 3px red; */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  font-kerning: none;
+  
+
+}
+.projects-title-in{
+  font-kerning: none;
+}
+.projects-title-out{
+  transform: translateX(-30px);
+  font-kerning: none;
+}
+
+/*CONTAINER FOR THE PROJECTS SLIDER*/
+.showcase-container {
+  position: relative;
+  display: flex;
+
+  height: 85svh;
+  width: 100svw;
+  /* background: #dfe1c8; */
+  overflow: hidden;
+
+
+
+}
+
+/*CONTAINER FOR THE PROJECTS CARDS*/
+.cards-slider {
+  position: absolute;
+  /* top: 15vh; */
+  width: 80svw;
+  height: 100svh;
+  overflow: hidden;
+  perspective: 300px;
+  perspective-origin: 50% -10%;
+
+
+}
+
+/*CARD*/
+
+.card {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  width: 40svw;
+  height: 40svh;
+  border-radius: 10px;
+  overflow: hidden;
+  transform: translate(-50%, -50%, 0);
+  /* background: #000; */
+  transition: width 0.5s, height 0.5s;
+
+
+
+
+}
+.card:hover {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  width: 42svw;
+  height: 43svh;
+  border-radius: 10px;
+  overflow: hidden;
+  transform: translate(-50%, -50%, 0);
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.2);
+
+  /* background: #000; */
+
+
+
+
+}
+.card:active {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  width: 40svw;
+  height: 40svh;
+  border-radius: 10px;
+  overflow: hidden;
+  transform: translate(-50%, -50%, 0);
+  /* background: #000; */
+
+
+
+
+}
+
+.card img {
+  position: absolute;
+  opacity: 0.85;
+}
+
+/* CARD TITLE*/
+
+.card-title{
+
+  position: absolute;
+  bottom:20%;
+  left: 15%;
+  padding: 10px;
+  border-radius: 5px;
+  background: none;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+
+.card-title-char{
+  transform: translateY(-50px);
+}
+.card-des-words{
+  transform: translateY(550px);
+}
+
+/*CARD DESCRIPTION*/
+.card-des{
+  position: absolute;
+  top:11%;
+  left: 70%;
+  height: 50vh;
+  width: 21vw;
+  font-size:larger;
+  right: 0%;
+  padding: 10px;
+  border-radius: 5px;
+  font-kerning: none;
+  /* background: aliceblue; */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  overflow-y:scroll;
+  
+  flex-wrap: wrap;
+}
+/* hidding scrobar in chrome */
+.card-des::-webkit-scrollbar{
+  display: none;
+
+}
+
+/* hidding scrollbar for edge, firefox */
+.card-des{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+}
+
+
+/*CHANGE CARD BUTTON CONTAINER*/
+.nextBtn-conatiner {
+
+  position: absolute;
+  bottom: 15%;
+  right: 35%;
+  z-index: 2;
+
+}
+
+.next-btn {
+  border: none;
+  background-color: hsla(0, 0%, 97%, 0);
+  cursor: pointer;
+
+
+
+}
+
+.next-btn:hover {
+  border: none;
+ 
+
+  cursor: pointer;
+
+
+
+}
+
+@media(max-width: 500px){
+ 
+  
+}
+  
+
+
+
+
+
+

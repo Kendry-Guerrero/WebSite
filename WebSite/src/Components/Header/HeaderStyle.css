@@ -1,0 +1,116 @@
+.header-container {
+  /* display: flex; */
+  /* align-items: center;
+    justify-content: space-between; */
+  height: 200px;
+  padding: 0;
+  z-index: 2;
+  /* border: solid 3px red; */
+
+
+}
+
+
+
+.header-container h1 {
+  display: inline-block;
+  position: relative;
+  top: 45%;
+  left: 25%;
+
+}
+
+#name {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+#job-description {
+
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.language-setion {
+  position: absolute;
+  top: 1%;
+  right: 3%;
+  display: flex;
+  width: 140px;
+
+
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.language-button-container {
+  display: flex;
+
+  width: 40px;
+  justify-content: space-between;
+
+
+}
+
+
+#btn {
+
+  cursor: pointer;
+
+}
+
+/* for mobile*/
+@media(max-width: 500px) {
+  .language-button-container {
+    background-color: rgba(255, 0, 0, 0);
+
+
+  }
+  .header-container h1 {
+    position: relative;
+    top: 45%;
+    left: 16%;
+  
+  }
+  #name {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  #job-description {
+  
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+
+  
+.language-setion {
+  position: absolute;
+  top: 1%;
+  right: 5%;
+  display: flex;
+  width: 150px;
+  /* border: solid 3px blue ; */
+
+
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.language-button-container {
+  display: flex;
+
+  width: 45px;
+  /* gap: 5px; */
+  justify-content: space-between;
+
+
+}
+
+
+}

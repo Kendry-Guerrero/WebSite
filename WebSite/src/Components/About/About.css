@@ -1,0 +1,130 @@
+.about-section-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+
+
+  /* border: solid 3px red; */
+
+}
+
+#about-section-title {
+  display: inline-flex;
+  margin-bottom: 50px;
+  width: fit-content;
+  justify-content: center;
+  writing-mode: vertical-lr;
+  border: none;
+
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  font-kerning: none;
+
+}
+
+.about-title-in {
+  font-kerning: none;
+}
+
+.about-title-out {
+  transform: translateX(-30px);
+  font-kerning: none;
+}
+
+.about-des-container {
+
+  position: relative;
+
+
+  left: 13%;
+  height: 50svh;
+  width: 50svw;
+  font-size: 1.4rem;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  overflow: hidden;
+
+  /* border: solid 3px red ; */
+
+
+}
+
+.stack-container {
+  position: absolute;
+  display: flex;
+
+  flex-wrap: wrap;
+  right: 5%;
+  gap: 10px;
+  /* border: solid 3px red; */
+  width: 400px;
+ 
+
+}
+
+.stack {
+  /* border: solid 1px hsla(0, 19%, 69%, 0.87); */
+  background-color: hsla(0, 0%, 8%, 0.87);
+  border-radius: 7px;
+  height: fit-content;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+.stack:hover {
+  /* border: solid 1px hsla(0, 19%, 69%, 0.87); */
+  background-color: hsla(0, 0%, 8%, 0.87);
+  border-radius: 7px;
+  height: fit-content;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+
+
+
+
+
+
+@media(max-width: 500px) {
+
+  #about-section-title {
+    display: inline-flex;
+    margin-bottom: 50px;
+    width: fit-content;
+    border-bottom: solid 1px hsla(0, 19%, 69%, 0.87);
+    justify-content: center;
+    writing-mode: horizontal-tb;
+    /* border: none; */
+
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    font-kerning: none;
+
+  }
+
+  .about-section-container {
+    display: flex;
+    flex-direction: column;
+
+
+    /* border: solid 3px red; */
+
+  }
+
+  .about-des-container {
+
+    position: relative;
+
+
+    left: 0%;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 50svh;
+    width: 100svw;
+    font-size: .9rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+
+    /* border: solid 3px red ; */
+
+
+  }
+}

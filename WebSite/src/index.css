@@ -1,0 +1,45 @@
+:root {
+  font-family: 'Aboreto', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color-scheme: light dark; 
+  /* color: rgba(130, 109, 109, 0.87); */
+  color: hsla(0, 19%, 69%, 0.871);
+  /* background-color: #242424; */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  overflow-x: hidden;
+}
+.aboreto-regular {
+  font-family: "Aboreto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  
+  
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+
+
+
+
